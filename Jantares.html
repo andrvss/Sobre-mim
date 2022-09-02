@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jantares</title>
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+        background-image: url('Fotos/universo.jpg');
+        background-repeat: no-repeat;
+        background-attachment: relative;
+        background-size: cover;
+        background-position: fixed;
+                }
+
+        .cabecalho {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        padding: 10px;
+        font-size: 20px;
+        }
+
+        a {
+        color:black;
+        text-decoration: none;
+        }
+
+        nav {
+        background: blueviolet;
+        margin-bottom: 20px;
+        }
+
+        .receitas {
+                width: 550px;
+                height: 315px;
+                border: 2px solid blueviolet;
+                border-radius: 10px;
+                margin-top: 70px;
+                margin-left: 500px;
+        }
+
+         h1 {
+            font-family: sans-serif;
+            font-size: 28px;
+            align-items: center;
+            position: relative;
+            margin-top: 35px;
+            margin-bottom: 30px;
+            margin-left: 570px;
+            width: 480px;
+            height: 30px;
+            color: beige;
+            border-radius: 10%;
+            background: black;
+        }
+         h2 {
+            font-family: sans-serif;
+            font-size: 23px;
+            align-items: center;
+            position: relative;
+            margin-top: 20px;
+            margin-bottom: 30px;
+            margin-left: 630px;
+            width: 450px;
+            height: 30px;
+            color: beige;
+            border-radius: 10%;
+            background: black;
+         }
+
+         h3 {
+            font-family: sans-serif;
+            font-size: 18px;
+            align-items: center;
+            position: relative;
+            margin-top: 35px;
+            margin-bottom: 10px;
+            margin-left: 660px;
+            width: 260px;
+            height: 30px;
+            color: beige;
+            border-radius: 10%;
+            background: black;
+         }
+
+         p {
+            font-family: sans-serif;
+            font-size: 22px;
+            color: white;
+            background: black;
+            width: 650px;
+            height: 410px;
+            margin-left: 500px;
+         }
+
+         .torta {
+            font-family: sans-serif;
+            font-size: 23px;
+            align-items: center;
+            position: relative;
+            margin-top: 20px;
+            margin-bottom: 30px;
+            margin-left: 685px;
+            width: 180px;
+            height: 30px;
+            color: beige;
+            border-radius: 10%;
+            background: black;
+         }
+
+         .torta-um {
+            font-family: sans-serif;
+            font-size: 22px;
+            color: white;
+            background: black;
+            width: 650px;
+            height: 300px;
+            margin-left: 500px;
+         }
+
+         .lasanha {
+            font-family: sans-serif;
+            font-size: 23px;
+            align-items: center;
+            position: relative;
+            margin-top: 20px;
+            margin-bottom: 30px;
+            margin-left: 730px;
+            width: 100px;
+            height: 30px;
+            color: beige;
+            border-radius: 10%;
+            background: black;
+         }
+
+         .lasanha-um {
+            font-family: sans-serif;
+            font-size: 22px;
+            color: white;
+            background: black;
+            width: 650px;
+            height: 250px;
+            margin-left: 500px;
+         }
+
+         .sachertorte {
+            font-family: sans-serif;
+            font-size: 23px;
+            align-items: center;
+            position: relative;
+            margin-top: 20px;
+            margin-bottom: 30px;
+            margin-left: 730px;
+            width: 150px;
+            height: 30px;
+            color: beige;
+            border-radius: 10%;
+            background: black;
+         }
+
+         .sache-um {
+            font-family: sans-serif;
+            font-size: 22px;
+            color: white;
+            background: black;
+            width: 650px;
+            height: 380px;
+            margin-left: 500px;
+         }
+
+         .tiramusu {
+            font-family: sans-serif;
+            font-size: 23px;
+            align-items: center;
+            position: relative;
+            margin-top: 20px;
+            margin-bottom: 30px;
+            margin-left: 730px;
+            width: 150px;
+            height: 30px;
+            color: beige;
+            border-radius: 10%;
+            background: black;
+         }
+
+         .tira {
+            font-family: sans-serif;
+            font-size: 22px;
+            color: white;
+            background: black;
+            width: 650px;
+            height: 280px;
+            margin-left: 500px;
+         }
+
+         .holanda {
+            font-family: sans-serif;
+            font-size: 23px;
+            align-items: center;
+            position: relative;
+            margin-top: 20px;
+            margin-bottom: 30px;
+            margin-left: 730px;
+            width: 150px;
+            height: 30px;
+            color: beige;
+            border-radius: 10%;
+            background: black;
+         }
+
+         .holandinha {
+            font-family: sans-serif;
+            font-size: 22px;
+            color: white;
+            background: black;
+            width: 650px;
+            height: 330px;
+            margin-left: 500px;
+         }
+
+         .margot {
+                width: 550px;
+                height: 315px;
+                border: 2px solid blueviolet;
+                border-radius: 10px;
+                margin-top: 70px;
+                margin-left: 500px;
+         }
+
+         .mum {
+            font-family: sans-serif;
+            font-size: 23px;
+            align-items: center;
+            position: relative;
+            margin-top: 20px;
+            margin-bottom: 30px;
+            margin-left: 710px;
+            width: 180px;
+            height: 30px;
+            color: beige;
+            border-radius: 10%;
+            background: black;
+         }
+
+         .mdois {
+            font-family: sans-serif;
+            font-size: 22px;
+            color: white;
+            background: black;
+            width: 400px;
+            height: 30px;
+            margin-left: 620px;
+         }
+
+         .mtres {
+            font-family: sans-serif;
+            font-size: 22px;
+            color: white;
+            background: black;
+            width: 650px;
+            height: 130px;
+            margin-left: 500px;
+         }
+        </style>
+</head>
+<body>
+    <header>
+        <nav class="cabecalho">
+        <a class="itens-cabecalho" href="index.html">Decifra-me</a>
+        <a class="itens-cabecalho" href="Futuro.html">Futuro</a>
+        <a class="itens-cabecalho" href="Jantares.html">Jantares</a>
+        <a class="itens-cabecalho" href="Devoro-te.html">Devoro-te</a>
+        <a class="itens-cabecalho" href="Artista.html">Artista</a>
+        <a class="itens-cabecalho" href="Infinitamente.html">Infinitamente!</a>
+        </nav>
+        </header>
+
+        <img class="receitas" src="Fotos/receita1.jpg" alt="Bolo de Murango">
+        <h2>Bolo de Morango&Chantilly</h2>
+        <p>Massa: <br>
+            4 ovos <br>
+            1 xícara (chá) de água <br>
+            2 xícaras (chá) de açúcar <br>
+            2 xícaras (chá) de trigo <br>
+            1 colher cheia (sopa) fermento químico <br>
+            Recheio: <br>
+            1 lata de leite condensado <br>
+            2 latas de leite (usar a lata do leite condensado como medida)<br>
+            1 gema <br>
+            2 colheres (sopa) de amido de milho <br>
+            3 xícaras (chá) de morangos picados <br>
+            Reservar uma parte do chantilly para usar no recheio <br>
+            Cobertura: <br>
+            2 pacotes (50g) de pó para creme de chantilly <br></p>
+
+            <img class="receitas" src="Fotos/receita2.jpg" alt="Tortinha">
+            <h2 class="torta">Torta Holandesa</h2>
+            <p class="torta-um">Ingredientes da Torta Holandesa no pote <br>
+                4 biscoitos de chocolate para decorar (amore, calipso ou tortinhas) <br>
+                12 biscoitos doces (maisena ou maria)<br>
+                1 colher (de sopa) de amido de milho <br>
+                1 gema <br>
+                1 colher (de chá) de essência de baunilha <br>
+                1/2 xícara de leite <br>
+                1 lata de leite condensado <br>
+                100g de creme de leite (1/2 caixinha) <br>
+                100g de chocolate meio-amargo <br></p>
+
+            <img class="receitas" src="Fotos/receita3.jpg" alt="Lasanhaaa">
+            <h2 class="lasanha">Lasanha</h2>
+            <p class="lasanha-um">INGREDIENTES<br>
+                1 massa de lasanha (pronta)<br>
+                500 g de presunto<br>
+                500 g de queijo mussarela<br>
+                500 g carne moída<br>
+                1 massa de tomate pronta<br>
+                sal a gosto<br>
+                pimenta-do-reino a gosto<br>
+                orégano a gosto<br></p>
+
+                <h1>VAMOS PARA OS MEUS SONHOS!!</h1>
+                <h3>cof...isso inclui a Margot...cof</h3>
+            
+            <img class="receitas" src="Fotos/receita4.jpg" alt="Sachezin">
+            <h2 class="sachertorte">Sachertorte</h2>
+            <p class="sache-um">Massa<br>
+                4 unidades de ovo<br>
+                1 lata de creme de leite<br>
+                1 copo de chocolate granulado (copo de 200gr)<br>
+                1/2 copo de óleo de soja<br>
+                1 copo de açúcar cristal<br>
+                1 copo de amêndoas moídas (ou nozes, avelãs ou castanha-do-pará)<br>
+                1 copo de farinha de trigo<br>
+                1 colher (sopa) de fermento químico em pó<br>
+                Calda<br>
+                200 gr de chocolate meio amargo<br>
+                100 gr de margarina<br>
+                1 dose de rum (aproximadamente)<br></p>
+
+            <img class="receitas" src="Fotos/receita5.jpg" alt="Tirastutu">
+            <h2 class="tiramusu">Tiramusú</h2>
+            <p class="tira">INGREDIENTES<br>
+                1 pacote de biscoitos champangne<br>
+                500 g de queijo mascarpone (pode substituir com 500 g de requeijão cremoso tipo catupiry)<br>
+                250 ml de creme de leite fresco<br>
+                3 gemas<br>
+                150 g de açúcar<br>
+                1 cálice de conhaque (opcional)<br>
+                2 xícaras de café frio<br>
+                chocolate em pó<br></p>
+
+            <img class="receitas" src="Fotos/receita6.jpg" alt="Holanda">
+            <h2 class="holanda">Stroopwafel</h2>
+            <p class="holandinha">Massa<br>
+                250 gr de farinha de trigo<br>
+                125 gr de manteiga derretida<br>
+                75 gr de açúcar cristal<br>
+                1 unidade de ovo grande<br>
+                25 gr de fermento biológico em pó<br>
+                1 colher (sopa) de água morna<br>
+                Recheio<br>
+                200 gr de melado de cana de cana<br>
+                125 gr de açúcar mascava<br>
+                100 gr de manteiga derretida<br>
+                1 colher (chá) de canela-da-china em pó<br></p>
+
+            <img class="margot" src="Fotos/margot.jpg" alt="QUE MULHER!">
+            <h1 class="mum">Margot Robbie</h1>
+            <h2 class="mdois">A personalidade c/ quem eu jantaria!</h2>
+            <p class="mtres">Se ela aceitaria meu convite, eu não sei. Mas que fique aqui o registro que independente do ano, eu chamaria ela em qualquer hora e lugar pra experimentar todos os listados acima. Porque além de bons, eles precisam ser chiques!</p>
+</body>
+</html>
